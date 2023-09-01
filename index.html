@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table , th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <tr style="background-color: aqua;">
+            <th>Month</th>
+            <th>Income</th>
+            <th>Spend</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>10000</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>1500</td>
+            <td>900</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>500</td>
+            <td>400</td>
+        </tr>
+    </table> <br>
+
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>Harry</td>
+            <td>Potter</td>
+            <td>23456789</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Harry</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>98765432</td>
+        </tr>
+        <tr>
+            <td>23456789</td>
+        </tr>
+    </table><br>
+    <form>
+        <label>Name</label>
+        <input type="text"><br>
+        <label>email</label>
+        <input type="text"><br>
+        <input type="submit" value="SignIn"> <br>
+    </form>
+    <div style="border: solid blue;">
+    <form>
+        <h2>Radio Button</h2>
+        <p>Select Your Favourite Game</p><br>
+        <input type="radio" name="Favourite Game" value="GTA5">
+        <label>GTA-V</label><br>
+        <input type="radio" name="Favourite Game" value="Fifa">
+        <label>FIFA</label><br>
+        <input type="radio" name="Favourite Game" value="Candy Crush">
+        <label>Candy Crush</label><br>
+
+        <h2>Check Box</h2>
+        <p>Select the Dips you like:</p>
+        <input type="checkbox" name="Favourite Dip" value="Mayo">
+        <label>Mayo</label><br>
+        <input type="checkbox" name="Favourite Dip" value="Tanduri Sauce">
+        <label>Tanduri Sauce</label><br>
+        <input type="checkbox" name="Favourite Dip" value="1000 island">
+        <label>Thousand Island</label><br>
+        <h2>Select Tag</h2>
+        <label>Choose your size:</label>
+        <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+        </select>
+
+    </form>
+</div>
+<p>Big Buck Bunny</p>
+<video width="320" height="240" controls >
+    <source src="bigbuckbunny.mp4" type="video/mp4">
+</video>
+
+<iframe width="420" height="350" src="https://www.youtube.com/embed/5oH9Nr3bKfw"></iframe>
+
+</body>
+</html>
